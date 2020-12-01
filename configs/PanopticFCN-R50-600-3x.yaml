@@ -1,0 +1,43 @@
+MODEL:
+  META_ARCHITECTURE: "PanopticFCN"
+  # WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  WEIGHTS: "/data/detectron2_modelzoo/basemodel/R-50-MSRA.pkl"
+  MASK_ON: True
+  PIXEL_MEAN: [123.675, 116.28, 103.53]
+  PIXEL_STD: [1.0, 1.0, 1.0]
+  RESNETS:
+    DEPTH: 50
+    OUT_FEATURES: ["res2", "res3", "res4", "res5"]
+  FPN:
+    IN_FEATURES: ["res2", "res3", "res4", "res5"]
+  POSITION_HEAD:
+    THING:
+      POS_NUM: 5
+DATASETS:
+  TRAIN: ("coco_2017_train_panoptic_separated",)
+  TEST: ("coco_2017_val_panoptic_separated",)
+DATALOADER:
+  FILTER_EMPTY_ANNOTATIONS: True
+SOLVER:
+  BASE_LR: 0.01
+  WEIGHT_DECAY: 1e-4
+  LR_SCHEDULER_NAME: "WarmupPolyLR"
+  POLY_LR_POWER: 0.9
+  WARMUP_ITERS: 1000
+  WARMUP_FACTOR: 0.001
+  WARMUP_METHOD: "linear"
+  CLIP_GRADIENTS:
+    ENABLED: True
+    CLIP_VALUE: 35.0
+  IMS_PER_BATCH: 16
+  MAX_ITER: 270000
+  CHECKPOINT_PERIOD: 10000
+INPUT:
+  MIN_SIZE_TRAIN: (440, 472, 504, 536, 568, 600)
+  MIN_SIZE_TRAIN_SAMPLING: "choice"
+  MIN_SIZE_TEST: 600
+  MAX_SIZE_TRAIN: 1000
+  MAX_SIZE_TEST: 1000
+  MASK_FORMAT: "bitmask"
+VERSION: 2
+
