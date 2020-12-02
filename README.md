@@ -104,13 +104,13 @@ We provide the results on COCO *val* set with pretrained models. *FPS* is measur
 <tr><td align="left">PanopticFCN</td>
 <td align="center">R50</td>
 <td align="center">3x</td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> running </td>
+<td align="center"> 43.6 </td>
+<td align="center"> 81.4 </td>
+<td align="center"> 52.5 </td>
+<td align="center"> 34.4 </td>
+<td align="center"> 43.6 </td>
+<td align="center"> 12.8 </td>
+<td align="center"> <a href="https://drive.google.com/file/d/18Re3keEkIiy7EVS-uFCNPBfT1BfT8Ng3/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1ACrIJ_AZCW3fD7jcipdya3-ixVBojnFO/view?usp=sharing">metrics</a></td>
 </tr>
 <tr><td align="left">PanopticFCN*</td>
 <td align="center">R50</td>
@@ -188,13 +188,13 @@ A faster version is also provided with higher threshold but similar PQ results, 
 <tr><td align="left">PanopticFCN</td>
 <td align="center">R50</td>
 <td align="center">3x</td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> - </td>
-<td align="center"> running </td>
+<td align="center"> 43.6 </td>
+<td align="center"> 81.4 </td>
+<td align="center"> 52.5 </td>
+<td align="center"> 32.4 </td>
+<td align="center"> 43.6 </td>
+<td align="center"> 13.5 </td>
+<td align="center"> <a href="https://drive.google.com/file/d/18Re3keEkIiy7EVS-uFCNPBfT1BfT8Ng3/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1ACrIJ_AZCW3fD7jcipdya3-ixVBojnFO/view?usp=sharing">metrics</a> </td>
 </tr>
 <tr><td align="left">PanopticFCN*</td>
 <td align="center">R50</td>
