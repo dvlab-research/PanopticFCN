@@ -10,7 +10,7 @@ Yanwei Li, Hengshuang Zhao, Xiaojuan Qi, Liwei Wang, Zeming Li, Jian Sun, Jiaya 
 </div><br/>
 
 
-This project provides an implementation for the paper "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/pdf/2012.00720.pdf)" based on [Detectron2](https://github.com/facebookresearch/detectron2). Panoptic FCN is a conceptually simple, strong, and efﬁcient framework for panoptic segmentation, which represents and predicts foreground things and background stuff in a uniﬁed fully convolutional pipeline.
+This project provides an implementation for the CVPR 2021 Oral paper "[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/pdf/2012.00720.pdf)" based on [Detectron2](https://github.com/facebookresearch/detectron2). Panoptic FCN is a conceptually simple, strong, and efﬁcient framework for panoptic segmentation, which represents and predicts foreground things and background stuff in a uniﬁed fully convolutional pipeline.
 
 
 ## Installation
@@ -217,8 +217,8 @@ Consider cite PanopticFCN in your publications if it helps your research.
 @article{li2020panopticfcn,
   title={Fully Convolutional Networks for Panoptic Segmentation},
   author={Yanwei Li, Hengshuang Zhao, Xiaojuan Qi, Liwei Wang, Zeming Li, Jian Sun, and Jiaya Jia},
-  journal={arXiv preprint arXiv:2012.00720},
-  year={2020}
+  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2021}
 }
 ```
 Consider cite this project in your publications if it helps your research. 
