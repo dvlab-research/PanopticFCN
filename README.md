@@ -214,10 +214,10 @@ A faster version is also provided with higher threshold but similar PQ results, 
 Consider cite PanopticFCN in your publications if it helps your research.
 
 ```
-@article{li2021panopticfcn,
+@inproceedings{li2021panopticfcn,
   title={Fully Convolutional Networks for Panoptic Segmentation},
   author={Yanwei Li, Hengshuang Zhao, Xiaojuan Qi, Liwei Wang, Zeming Li, Jian Sun, and Jiaya Jia},
-  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2021}
 }
 ```
